@@ -26,7 +26,7 @@ conda install numpy pandas scipy scikit-learn matplotlib
 
 then navigate to where you want to install ptalign, and do:
 ```
-git clone XXX
+git clone https://github.com/leoforster/ptalign.git
 pip3 install -e ptalign/
 ```
 
@@ -37,7 +37,7 @@ Tested on Ubuntu 18.04.
 
 ## Minimal example of a ptalign run
 
-ptalign ships with a toy dataset for demonstration purposes, found in `ptalign/toy_data`.
+ptalign ships with a toy dataset for demonstration purposes, found in `ptalign/toy_dataset`.
 The following steps describe running ptalign on this dataset within a jupyter notebook or similar environment:
 
 First check that ptalign is installed and that the module can be imported:
