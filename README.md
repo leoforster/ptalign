@@ -8,7 +8,7 @@ ptalign places query cells at their best-matched position in the reference pseud
 
 This process is enabled through a reference gene set capturing pseudotime dynamics, which is used to derive correlation-based pseudotime-similarity profiles that input to a pseudotime-predictive MLP to derive aligned pseudotimes.
 
-![ptalign_scheme](https://github.com/user-attachments/assets/a09b2acf-c30f-4d30-9e22-fc106b8ae882)
+![ptalign_scheme](ptalign_scheme.png)
 
 A DTW-based permutation framework compares pseudotime expression dynamics between the reference and aligned query pseudotimes against those derived from expression-matched permuted gene sets. This way, aligned pseudotimes which do not better explain the underlzing reference expression dynamics than random can be excluded.
 
