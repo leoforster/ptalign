@@ -83,5 +83,5 @@ cellpt = alignres['cellpt'] # if permutations=0
 cellpt = alignres[0]['cellpt'] # if permutations>0
 ```
 
-Some example of possible downstream analysis using ptalign pseudotimes are demonstrated in [our paper](https://XXX).
+Some example of possible downstream analysis using ptalign pseudotimes are demonstrated in [our paper](https://www.nature.com/articles/s41467-025-62528-w).
 
